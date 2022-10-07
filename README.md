@@ -4,8 +4,8 @@
 
 
     MCU                     Opt           Freq/MHz Time/ms  DMIPS    DMIPS/MHz
-    AMD R5-3600X            O3            350        0.02   24323    5.59
-    AMD R5-3600X            Os            350        0.05   11383    2.62
+    AMD R5-3600X            O3           4350        0.02   24323    5.59
+    AMD R5-3600X            Os           4350        0.05   11383    2.62
     BCM2835(RPi Zero)       O3            800        0.33    1730    2.16
     BCM2835(RPi Zero)       Os            800        0.68     833    1.04
     GD32F450ZET6(oc)        O3            400        1.08     527    1.32
