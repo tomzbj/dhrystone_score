@@ -3,10 +3,12 @@
 ## Dhrystone score of some MCUs
 
 
-    MCU                         Opt      Arch           Freq/MHz  Time/ms   DMIPS      DMIPS/MHz
+    MCU                         Opt      Arch           Freq/MHz   Time/ms DMIPS       DMIPS/MHz
     AMD R5-3600X                O3       X86-64          4350       0.02   24323           5.59
     AMD R5-3600X                Os       X86-64          4350       0.05   11383           2.62
     BCM2835(RPi Zero)           O3       ARM11            800       0.33    1730           2.16
+    STM32H750VBT6               O3       Cortex-M7        480       0.40    1412           2.94
+    STM32H750VBT6               Os       Cortex-M7        480       0.61     933           1.94
     BCM2835(RPi Zero)           Os       ARM11            800       0.68     833           1.04
     GD32F450ZET6(oc)            O3       Cortex-M4        400       1.08     527           1.32
     GD32F470VIT6(oc)            O3       Cortex-M4        360       1.21     470           1.31
@@ -28,16 +30,20 @@
     GD32E103CBT6                O3       Cortex-M4        120       3.77     151           1.26
     GD32W515PIQ6                Os       Cortex-M33       180       3.83     149           0.83
     GD32E503CET6                Os       Cortex-M33       176       4.19     136           0.77
+    STM32L431CCT6(oc)           O3       Cortex-M4        136       4.40     129           0.95
     GD32F103RCT6(oc)            Os       Cortex-M3        192       4.43     128           0.67
     GD32F350CBT6                O3       Cortex-M4        108       4.57     125           1.15
     STM32F407VET6               Os       Cortex-M4        168       4.84     118           0.70
     STM32F401RET6               O3       Cortex-M4         84       5.21     109           1.30
+    STM32L431CCT6               O3       Cortex-M4         80       5.32     107           1.34
+    STM32L431CCT6(oc)           Os       Cortex-M4        136       5.57     102           0.75
     GD32VF103CBT6               Os       RISC-V           108       6.00      95           0.88
     ESP8266                     O3       Xtensa L106       80       6.38      89           1.12
     GD32F103RCT6                O3       Cortex-M3         72       7.54      75           1.05
     GD32E103CBT6                Os       Cortex-M4        120       8.11      70           0.58
     STM32F103VET6               O3       Cortex-M3         72       8.71      65           0.91
     STM32F401RET6               Os       Cortex-M4         84       9.19      62           0.74
+    STM32L431CCT6               Os       Cortex-M4         80       9.28      61           0.77
     GD32E230C8T6                O3       Cortex-M23        72      10.44      55           0.76
     GD32F103RCT6                Os       Cortex-M3         72      11.83      48           0.67
     ESP8266                     Os       Xtensa L106       80      12.20      47           0.58
@@ -49,8 +55,10 @@
     GD32F450ZET6(no pll)        O3       Cortex-M4         16      27.21      21           1.31
     STM32F401RET6(no pll)       O3       Cortex-M4         16      27.23      21           1.31
     STM32F070CBT6               Os       Cortex-M0         48      27.52      21           0.43
+    XL2409                      O3       Cortex-M0+        24      33.00      17           0.72
     STM32L051C8T6(no pll)       O3       Cortex-M0         16      36.80      15           0.97
     STM32L051C8T6               Os       Cortex-M0         32      42.90      13           0.41
+    XL2409                      Os       Cortex-M0+        24      53.40      11           0.44
     GD32E103CBT6(no pll)        O3       Cortex-M4          8      55.10      10           1.29
     STM32F103VET6(no pll)       O3       Cortex-M3          8      59.00     9.6           1.21
     GD32FFPRTGU6(no pll)        O3       Cortex-M4          8      61.50     9.3           1.16
@@ -58,11 +66,11 @@
     STM32L051C8T6(no pll)       Os       Cortex-M0         16      62.10     9.2           0.57
     ATMEGA16                    O3       AVR               16      67.00     8.5           0.53
     ATMEGA328P                  O3       AVR               16      71.90     7.9           0.49
-    CH573                       O3       RISC-V            60      73.60       8           0.13
+    CH573                       O3       RISC-V            60      73.60     7.7           0.13
     ATMEGA328P                  Os       AVR               16      74.00     7.7           0.48
-    CH573                       O3       RISC-V            20      78.00       7           0.36
+    CH573                       O3       RISC-V            20      78.00     7.3           0.36
     STM32F070CBT6(no pll)       O3       Cortex-M0          8      80.00     7.1           0.89
-    CH573                       Os       RISC-V            60      85.50       7           0.11
+    CH573                       Os       RISC-V            60      85.50     6.7           0.11
     ATMEGA16                    Os       AVR               16      93.50     6.1           0.38
     GD32E103CBT6(no pll)        Os       Cortex-M4          8      96.00     5.9           0.74
     STM8L151G6U6                fast     STM8              16     107.10     5.3           0.33
