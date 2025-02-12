@@ -98,6 +98,11 @@
 
 ## ChangeLog
 
+**2025.2.9** 
+
+Added CH592 & AT32F435
+
+
 **2025.1.16** 
 
 Added GD32E230C8T6 @ 144MHz (oc)
