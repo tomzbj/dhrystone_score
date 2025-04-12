@@ -20,7 +20,7 @@
     GD32FFPRTGU6(oc)           O3       Cortex-M4          280       1.76    323          1.15
     GD32F350CBT6(oc)           O3       Cortex-M4          280       1.80    316          1.13
     GD32F470VIT6               O3       Cortex-M4          240       1.81    314          1.31
-    CH32V305RB                 O3       RISC-V             208       1.85    308          1.48
+    CH32V305RB(oc)             O3       RISC-V             208       1.85    308          1.48
     AT32F435CMT7(oc)           Os       Cortex-M4          368       2.07    275          0.75
     GD32E503CET6               O3       Cortex-M33         176       2.15    265          1.50
     GD32F450ZET6               O3       Cortex-M4          200       2.16    263          1.32
@@ -40,7 +40,7 @@
     GD32F350CBT6               O3       Cortex-M4          108       4.57    125          1.15
     STM32F303CCT6(oc)          O3       Cortex-M4          128       4.71    121          0.94
     STM32F407VET6              Os       Cortex-M4          168       4.84    118          0.70
-    CH32V305RB                 Os       RISC-V             192       5.02    113          0.59
+    CH32V305RB(oc)             Os       RISC-V             192       5.02    113          0.59
     GD32E230C8T6(oc)           O3       Cortex-M23         144       5.05    113          0.78
     STM32F401RET6              O3       Cortex-M4           84       5.21    109          1.30
     STM32L431CCT6              O3       Cortex-M4           80       5.32    107          1.34
