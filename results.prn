@@ -9,14 +9,14 @@ GD32H737VMT6(oc)                Os      Cortex-M7            1000      0.420    
 STM32H750VBT6                   Os      Cortex-M7             480      0.610        933          1.94
 BCM2835(RPi Zero)               Os      ARM11                 800      0.683        833          1.04
 GD32H737VMT6                    Os      Cortex-M7             600      0.701        812          1.35
-STM32H523RET6(oc)               O3      Cortex-M33            450      0.832        684          1.52
+STM32H523RET6(oc)               O3      Cortex-M33            440      0.832        684          1.55
 GD32F450ZET6(oc)                O3      Cortex-M4             400      1.080        527          1.32
 AT32F435CMT7(oc)                O3      Cortex-M4             368      1.150        495          1.34
 GD32F470VIT6(oc)                O3      Cortex-M4             360      1.210        470          1.31
 GD32W515PIQ6(oc)                O3      Cortex-M33            320      1.232        462          1.44
 GD32E503CET6(oc)                O3      Cortex-M33            272      1.400        407          1.49
 STM32H523RET6                   O3      Cortex-M33            250      1.464        389          1.56
-STM32H523RET6(oc)               Os      Cortex-M33            450      1.469        387          0.86
+STM32H523RET6(oc)               Os      Cortex-M33            440      1.469        387          0.88
 GD32VF103CBT6(oc)               O3      RISC-V                192      1.490        382          1.99
 AT32F435CMT7                    O3      Cortex-M4             288      1.540        370          1.28
 GD32EPRTVDT6(oc)                O3      Cortex-M33            240      1.590        358          1.49
