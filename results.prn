@@ -31,7 +31,8 @@ N32G455REL7(oc)                 O3      Cortex-M4             256      2.120    
 GD32E503CET6                    O3      Cortex-M33            176      2.150        265          1.50
 GD32F450ZET6                    O3      Cortex-M4             200      2.160        263          1.32
 GD32W515PIQ6                    O3      Cortex-M33            180      2.188        260          1.45
-STM32H523RET6                   Os      Cortex-M33            250      2.587      220.0          0.88
+ESP8684                         O3      RISC-V                120      2.444        233          1.94
+STM32H523RET6                   Os      Cortex-M33            250      2.587        220          0.88
 STM32F407VET6                   O3      Cortex-M4             168      2.590        220          1.31
 GD32VF103CBT6                   O3      RISC-V                108      2.660        214          1.98
 CH32V305RB                      O3      RISC-V                144      2.690        212          1.47
@@ -42,6 +43,7 @@ GD32F470VIT6                    Os      Cortex-M4             240      3.080    
 N32G455REL7                     O3      Cortex-M4             144      3.740        152          1.06
 GD32E103CBT6                    O3      Cortex-M4             120      3.770        151          1.26
 GD32W515PIQ6                    Os      Cortex-M33            180      3.827        149          0.83
+ESP8684                         Os      RISC-V                120      3.910        146          1.21
 GD32E503CET6                    Os      Cortex-M33            176      4.190        136          0.77
 STM32L431CCT6(oc)               O3      Cortex-M4             136      4.400        129          0.95
 GD32F103RCT6(oc)                Os      Cortex-M3             192      4.430        128          0.67
